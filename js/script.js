@@ -13,9 +13,9 @@ $(window).scroll(function(){
     var currentTop = $(window).scrollTop();
     if (currentTop < 500) {
         //$(".navbar-fixed").fadeIn(300);
-        $(".toTop").fadeOut(300);
+        $(".toTop").fadeOut(200);
     } else {
         //$(".navbar-fixed").fadeOut(300);
-        $(".toTop").fadeIn(300);
+        $(".toTop").fadeIn(200);
     }
 });
