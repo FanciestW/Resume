@@ -56,9 +56,12 @@ a.anchor {
 }
 div.toTop{
 	position: fixed;
-	color: #616161;
+	color: #000000;
 	bottom: 6%;
 	right: 6%;
+}
+p.toTop{
+	margin: none;
 }
 p.title{
 	text-align: center;
