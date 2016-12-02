@@ -62,6 +62,7 @@ div.toTop{
 }
 p.toTop{
 	margin: none;
+	font-size: small;
 }
 p.title{
 	text-align: center;
