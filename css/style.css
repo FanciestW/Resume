@@ -1,0 +1,178 @@
+body{
+	-webkit-animation-name: fadeIn;
+	-webkit-animation-duration: 3s;
+	height: 100%;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+    background-image: url("../img/background.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+/*
+table.nav{
+	position: fixed;
+	background-color: #808080;
+	width: 100%;
+	text-align: center;
+	font-family: "courier";
+	font-size: 25px;
+}
+td.nav{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+*/
+.nameHeader{
+	left: 5%;
+}
+a.link:link{
+	color: #505050;
+	text-decoration: none;
+}
+a.link:visited{
+	color: #505050;
+	text-decoration: none;
+}
+a.link:hover{
+	text-decoration: underline;
+}
+a.nav:link{
+	color:#404040;
+	text-decoration: none;
+}
+a.nav:visited{
+	color:#404040;
+	text-decoration: none;
+}
+a.anchor {
+    display: block;
+    position: relative;
+    top: -70px;
+    visibility: hidden;
+}
+div.toTop{
+	position: fixed;
+	color: #616161;
+	bottom: 6%;
+	right: 6%;
+}
+p.title{
+	text-align: center;
+	font-size: 84px;
+	font-family: courier;
+	font-weight: bold;
+	color: white;
+	text-shadow: -5px 5px 5px #000000;
+	margin: 0px;
+	padding-top: 3%;
+}
+img.myPic{
+	display: block;
+	margin: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: 25%;
+	height: auto;
+	border-radius: 50%;
+	box-shadow: 0px 0px 50px #fff;
+}
+div.quote{
+	text-align: center;
+}
+p.quote{
+	margin: auto;
+	font-family: courier;
+	font-style: italic;
+	font-size: 175%;
+	color: white;
+	text-shadow: 2px 2px rgba(0,0,0,0.1);
+}
+div.body{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3%;
+	background-color: rgba(255, 255, 255, .85);
+	height: 100%;
+	width: 90%;
+	padding: 3%;
+	border-radius: 25px;	
+}
+hr{
+	width: 90%;
+}
+div.contact{
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	border-top: 0px;
+	text-align: center;
+	color: #303030;
+	font-size: 24px;
+	font-family: courier;
+}
+.bLink{
+	text-decoration: none;
+	color: #303030;
+}
+.bLink:link{
+	text-decoration: none;
+	color: #303030;
+}
+.bLink:visited{
+	text-decoration: none;
+	color: #303030;
+}
+.bLink:hover{
+	text-decoration: none;
+	color: #505050;
+}
+p.header{
+	font-family: courier;
+	font-size: 32px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	color: #202020;
+}
+p.content{
+	font-family: courier;
+	font-size: 18px;
+	font-weight: bold;
+	color: #303030;
+}
+div.section{
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+div.lsection{
+	display: inline-block;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+div.skillSect{
+	display: inline-block;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+li.list{
+	font-family: courier;
+	font-size: 18px;
+	font-weight: bold;
+	color: #303030;
+}
+@-webkit-keyframes fadeIn {
+  from{
+    opacity: 0;
+  }
+
+  to{
+    opacity: 1;
+  }
+}
