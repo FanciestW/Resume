@@ -50,6 +50,7 @@ function sendMsg(){
         lastName: lName,
         email: em,
         message: msg
+        fromSite: "Resume"
     });
     clearForm();
 }
