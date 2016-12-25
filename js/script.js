@@ -49,7 +49,7 @@ function sendMsg(){
         firstName: fName,
         lastName: lName,
         email: em,
-        message: msg
+        message: msg,
         fromSite: "Resume"
     });
     clearForm();
