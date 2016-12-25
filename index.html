@@ -33,6 +33,9 @@
 	<script src="https://use.fontawesome.com/86376823fc.js"></script>
 	<script src="js/jquery-3.1.1.min.js"></script>
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+  	<script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/3.6.2/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/3.6.2/firebase-database.js"></script>
 	<script src="js/script.js"></script>
   	<div class="navbar-fixed">
 		<nav>
@@ -167,6 +170,44 @@
                   	<li>Phone: (917) 434-8023</li>
                   	<li>Email: wlin26@yahoo.com</li>
                 </ul>
+                <!-- Modal Trigger -->
+			  	<a class="waves-effect waves-light btn red" href="#modal1">Send a Message</a>
+
+			  	<!-- Modal Structure -->
+			  	<div id="modal1" class="modal">
+			    	<div class="modal-content">
+				      	<div class="row">
+							<form class="col s12">
+						      	<div class="row">
+						        	<div class="input-field col s6">
+						          		<input id="first_name" type="text" class="validate" required>
+						          		<label for="first_name">First Name</label>
+						        	</div>
+						        	<div class="input-field col s6">
+						          		<input id="last_name" type="text" class="validate" required>
+						         		<label for="last_name">Last Name</label>
+						        	</div>
+						      	</div>
+						      	<div class="row">
+						        	<div class="input-field col s12">
+						          		<input id="email" type="email" class="validate">
+						          		<label for="email">Your Email</label>
+						        	</div>
+						      	</div>
+						      	<div class="row">
+							      	<div class="input-field col s12">
+							      		<textarea id="message" class="materialize-textarea"></textarea>
+							      		<label for="message">Message</label>
+							      	</div>
+						      	</div>
+						    </form>
+						</div>
+			    	</div>
+			    	<div class="modal-footer">
+			      		<a class=" modal-action modal-close waves-effect waves-green btn-flat" onclick="clearForm()">Cancel</a>
+			      		<a class=" modal-action modal-close waves-effect waves-green btn-flat" onclick="sendMsg()">Send</a>
+			    	</div>
+			  	</div>
               </div>
             </div>
           </div>
