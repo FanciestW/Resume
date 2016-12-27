@@ -39,6 +39,8 @@ function clearForm(){
 }
 
 function sendMsg(){
+    var today = new Date();
+    var todayStr = today.toString();
     var database = firebase.database().ref('messages');
     var newMsg = database.push();
     var fName = document.getElementById('first_name').value;
@@ -50,7 +52,8 @@ function sendMsg(){
         lastName: lName,
         email: em,
         message: msg,
-        fromSite: "Resume"
+        fromSite: "FanciestW.github.io",
+        date: todayStr
     });
     clearForm();
 }
