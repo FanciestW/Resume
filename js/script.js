@@ -1,11 +1,11 @@
 $(document).ready(function(){
     // Initialize Firebase
     var config = {
-        apiKey: "AIzaSyB9WoQ_uYkFmUFB1c_6ihLwl8jDCQPRJtM",
-        authDomain: "contactme-313af.firebaseapp.com",
-        databaseURL: "https://contactme-313af.firebaseio.com",
-        storageBucket: "contactme-313af.appspot.com",
-        messagingSenderId: "1096291680692"
+        apiKey: "AIzaSyA42_fof6OAAUz5YuDHRLIt9hYAvyRjsLA",
+        authDomain: "fanciestwghpages.firebaseapp.com",
+        databaseURL: "https://fanciestwghpages.firebaseio.com",
+        storageBucket: "fanciestwghpages.appspot.com",
+        messagingSenderId: "138288406567"
     };
     firebase.initializeApp(config);
 
