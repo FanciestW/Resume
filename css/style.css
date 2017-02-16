@@ -117,6 +117,9 @@ div.contact{
 	color: #303030;
 	font-size: 24px;
 }
+.smallText{
+	font-weight: 300;
+}
 .bLink{
 	text-decoration: none;
 	color: #303030;
