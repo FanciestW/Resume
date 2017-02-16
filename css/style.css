@@ -67,7 +67,6 @@ p.toTop{
 p.title{
 	text-align: center;
 	font-size: 84px;
-	font-family: courier;
 	font-weight: bold;
 	color: white;
 	text-shadow: -5px 5px 5px #000000;
@@ -86,12 +85,12 @@ img.myPic{
 }
 div.quote{
 	text-align: center;
+	font-weight: 200;
 }
 p.quote{
 	margin: auto;
-	font-family: courier;
+	font-size: 150%;
 	font-style: italic;
-	font-size: 175%;
 	color: white;
 	text-shadow: 2px 2px rgba(0,0,0,0.1);
 }
@@ -117,7 +116,6 @@ div.contact{
 	text-align: center;
 	color: #303030;
 	font-size: 24px;
-	font-family: courier;
 }
 .bLink{
 	text-decoration: none;
@@ -136,16 +134,14 @@ div.contact{
 	color: #505050;
 }
 p.header{
-	font-family: courier;
 	font-size: 32px;
 	margin-top: 5px;
 	margin-bottom: 0px;
 	color: #202020;
 }
 p.content{
-	font-family: courier;
 	font-size: 18px;
-	font-weight: bold;
+	font-weight: 300;
 	color: #303030;
 }
 div.section{
@@ -166,9 +162,8 @@ div.skillSect{
 	margin-right: auto;
 }
 li.list{
-	font-family: courier;
 	font-size: 18px;
-	font-weight: bold;
+	font-weight: 300;
 	color: #303030;
 }
 @-webkit-keyframes fadeIn {
