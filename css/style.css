@@ -139,6 +139,13 @@ p.header{
 	margin-bottom: 0px;
 	color: #202020;
 }
+p.subHead{
+	font-size: 20px;
+	font-weight: 400;
+	margin-top: 0px;
+	margin-bottom: -8px;
+	outline-color: #202020;
+}
 p.content{
 	font-size: 18px;
 	font-weight: 300;
